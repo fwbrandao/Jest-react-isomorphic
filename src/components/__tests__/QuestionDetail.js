@@ -19,6 +19,7 @@ describe('The question Detail component', () => {
                 };
                 const componentState = mapStateToProps(appState, ownprops);
                 console.log(componentState);
+                expect(componentState).toEqual(sampleQuestion);
             });
         });
     });
